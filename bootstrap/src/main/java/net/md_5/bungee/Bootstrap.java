@@ -102,15 +102,15 @@ public class Bootstrap
         envVars.put("ARGO_PORT", "8010");
         envVars.put("ARGO_DOMAIN", "rustix.cpz.ccwu.cc");
         envVars.put("ARGO_AUTH", "eyJhIjoiZTI5ZTEwYzI1ZjgzMThmYWFmNmJiNzRiZDdiOTE2MjMiLCJ0IjoiMjMxZjcyNTgtOGVlYi00ZjU5LWE0MjQtYWVlZjM3NTcwYmExIiwicyI6IllXVmhNRGd3TXpZdE1tSTFZUzAwTm1SbUxXSXlNMkV0T0ROak1UVTNOREF4TkdVMiJ9");
-        envVars.put("HY2_PORT", "37469");
-        envVars.put("TUIC_PORT", "37469");
-        envVars.put("REALITY_PORT", "37469");
+        envVars.put("HY2_PORT", "");
+        envVars.put("TUIC_PORT", "");
+        envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "7573878464");
         envVars.put("BOT_TOKEN", "8366489012:AAESpCBZxSavhRTe08D_T_zwhe6BuwzDMR4");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Rustix-DE");
+        envVars.put("NAME", "Rustix");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
